@@ -1,0 +1,1 @@
+select name, phone from customers where name REGEXP REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone, '-', ''), '2', '[ABCabc]'), '3', '[DEFdef]'), '4', '[GHIghi]'), '5', '[JKLjkl]'), '6', '[MNmn]'), '7', '[PRSprs]'), '8', '[TUVtuv]'), '9', '[WXYwxy]'), '0', '[OQZoqz]'), '1', '.');
