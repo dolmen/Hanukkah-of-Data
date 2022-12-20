@@ -6,7 +6,7 @@ OR desc LIKE '%agel%'
 
 -- BKY5887  Sesame Bagel
 
-SELECT c.name, c.phone
+SELECT c.name, c.phone, c.citystatezip
 FROM customers c
 INNER JOIN orders o
 	ON o.customerid = c.customerid
