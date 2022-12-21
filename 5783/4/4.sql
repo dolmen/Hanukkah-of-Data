@@ -1,3 +1,6 @@
+-- We are looking at pastries from Noah's inventory.
+-- Product's SKUs have a 3 letters prefix that is a category.
+-- 
 SELECT DISTINCT SUBSTR(sku, 1, 3) FROM products;
 /*
 DLI
@@ -10,6 +13,8 @@ COL
 BKY
 */
 
+-- BKY => Bakery
+
 
 SELECT c.name, c.phone, i.sku, strftime('%H:%M:%S', o.ordered) AS order_time
 FROM customers c
@@ -17,7 +22,9 @@ INNER JOIN orders o
 	ON o.customerid = c.customerid
 INNER JOIN orders_items i
 	ON i.orderid = o.orderid
+-- Hour < 5
 WHERE strftime('%H', o.ordered) < '05'
+-- Backery
 AND i.sku LIKE 'BKY%'
 ORDER BY order_time ASC
 ;
