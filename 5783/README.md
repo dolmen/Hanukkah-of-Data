@@ -26,6 +26,8 @@ So I wrote a [shell script](Intro/run.sh) to apply brute force.
 
 ### [Day 5](https://hanukkah.bluebird.sh/5783/5/)
 
+* [SQL](5/5.sql)
+
 ### [Day 6](https://hanukkah.bluebird.sh/5783/6/)
 
 ### [Day 7](https://hanukkah.bluebird.sh/5783/7/)
