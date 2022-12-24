@@ -30,7 +30,14 @@ So I wrote a [shell script](Intro/run.sh) to apply brute force.
 
 ### [Day 6](https://hanukkah.bluebird.sh/5783/6/)
 
+* [SQL](6/6.sql)
+
 ### [Day 7](https://hanukkah.bluebird.sh/5783/7/)
+
+* [SQL](7/7.sql)
+
+### [Day 8](https://hanukkah.bluebird.sh/5783/8/)
+
 
 ## Other solutions
 
