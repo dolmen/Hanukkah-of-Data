@@ -38,6 +38,9 @@ So I wrote a [shell script](Intro/run.sh) to apply brute force.
 
 ### [Day 8](https://hanukkah.bluebird.sh/5783/8/)
 
+## Stats
+
+![Stats of @dolmen after day 7](stats-day-7.png)
 
 ## Other solutions
 
